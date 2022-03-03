@@ -7,6 +7,6 @@ function showAverage(arrayNumber){
 for(var i = 0 ; i < arrayNumber.length ; i++){
     sum = sum + Number(arrayNumber[i]);
 }
-alert(sum / myArray.length);
+console.log(sum / myArray.length);
 }
 showAverage(myArray)
